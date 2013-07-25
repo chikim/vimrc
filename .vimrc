@@ -1,3 +1,8 @@
+augroup HighlightTrailingSpaces
+autocmd!
+autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
+autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
+augroup END
 syntax on
 set t_Co=256
 filetype on
@@ -11,6 +16,8 @@ set shiftround
 set autoindent
 set smartindent
 set number
+set ruler
 colorscheme zenburn
-"set cursorline
-"set cursorcolumn
+set cc=81
+hi ColorColumn guibg=#2d2d2d ctermbg=246
+filetype plugin indent on
