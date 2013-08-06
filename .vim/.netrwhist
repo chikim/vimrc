@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/huynd/.rvm/gems/ruby-2.0.0-p0/gems/redis-objects-0.5.2/lib/redis/objects'
 let g:netrw_dirhist_2='/Users/huynd/workspaces/pxvww-test/app/models/m/job'
 let g:netrw_dirhist_3='/Users/huynd/workspaces/pxvww-test/lib/kyototycoon'
 let g:netrw_dirhist_4='/Users/huynd/workspaces/pxvww-app/app/models/m/job'
 let g:netrw_dirhist_5='/Users/huynd/workspaces/pxvww-app/app/models/m'
+let g:netrw_dirhist_6='/Users/huynd/workspaces/pxvww-test/app/models/m/ticket'
+let g:netrw_dirhist_7='/Users/huynd/workspaces/pxvww-test/app/models/m'
+let g:netrw_dirhist_8='/Users/huynd/.rvm/gems/ruby-2.0.0-p0/gems/rails-observers-0.1.2'
+let g:netrw_dirhist_9='/Users/huynd/workspaces/pxvww-test/app/models/attachment'
